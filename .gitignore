@@ -1,0 +1,9 @@
+bazel-bin/
+bazel-out/
+bazel-rules_pytest/
+bazel-testlogs/
+example/bazel-bin/
+example/bazel-example/
+example/bazel-out/
+example/bazel-testlogs/
+**/MODULE.bazel.lock
