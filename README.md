@@ -8,7 +8,7 @@ To allow bazel to find `rules_pytest` repository, edit `.bazelrc`:
 
 ```
 common --enable_bzlmod
-common --registry file:///home/pawel/src/rules_pytest/bazel_registry
+common --registry https://github.com/pstradomski/rules_pytest/tree/main/bazel_registry
 common --registry https://bcr.bazel.build
 ```
 
